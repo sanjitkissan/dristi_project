@@ -44,8 +44,8 @@ export default function Footer() {
       </div>
     </section>
     <section className='w-full center'>
-    <h1 className="p-4  w-full text-center main-container text-base fount-bold text-gray-800 capitalize">
-          Copyright &copy; {new Date().getFullYear()} dRISTi communications
+    <h1 className="p-4  w-full text-center main-container text-base fount-bold text-gray-800 ">
+          Copyright &copy; {new Date().getFullYear()} dRSTi Communications
         
         </h1>
     </section>
