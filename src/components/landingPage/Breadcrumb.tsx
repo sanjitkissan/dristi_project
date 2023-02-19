@@ -1,11 +1,11 @@
-import { BreadcrumbBG, BreadcrumbBG_TWO } from "@/assets/breadcrumb";
+import { BreadcrumbBG, BreadcrumbBG_TWO } from "@/assets/LandingPage/breadcrumb";
 import { breadcrumbArr } from "@/utils/landinPage";
 import React from "react";
 import BreadcrumbCard from "../card/landingPage/BreadcrumbCard";
 
 export default function Breadcrumb() {
   return (
-    <section className="w-full bg-gray-100 w-full mb-96 ">
+    <section className="w-full bg-gray-100  mb-96 ">
       <section className="w-full main-container flex items-center justify-between ">
         <div className="w-[20%] h-full">
           <span className="flex flex-col items-start justify-center gap-4 -rotate-90 h-full w-full">
@@ -20,7 +20,7 @@ export default function Breadcrumb() {
           className="w-[80%] bg-cover bg-no-repeat bg-center h-[60vh] relative"
         >
           <div className="absolute top-0 bottom-0 right-0 left-0 bg-black bg-opacity-60 center">
-            <span className="absolute w-60 h-48 top-[50%] -left-16 bg-white -translate-y-1/2 p-4">
+            <span className="absolute w-60 h-48 top-1/2 -left-16 bg-white -translate-y-1/2 p-4 ">
               <img
                 src={BreadcrumbBG_TWO.src}
                 alt=""

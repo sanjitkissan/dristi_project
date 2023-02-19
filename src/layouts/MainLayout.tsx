@@ -7,7 +7,7 @@ type prop = {
     title?: string;
     children: ReactElement | ReactElement[];
   };
-export default function MainLayout({children ,title="dRISTi"}:prop) {
+export default function MainLayout({children ,title="dRSTi"}:prop) {
   return (
     <>
     <Head>
