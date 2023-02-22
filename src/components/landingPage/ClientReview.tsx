@@ -24,7 +24,7 @@ export default function ClientReview() {
                 <span className='center gap-3'>
                     <img src={ClientImg.src} alt="" className='w-12 h-12 rounded-full object-cover'/>
                     <span>
-                        <h1 className='text-lg font-bold capitalize'>sanjit kissan</h1>
+                        <h1 className='text-lg font-bold capitalize'>sameer</h1>
                         <p className='text-red-600 capitalize'>client</p>
                     </span>
                 </span>

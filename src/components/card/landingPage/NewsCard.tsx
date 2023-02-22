@@ -1,4 +1,5 @@
 import { newsArrType } from '@/types'
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import React from 'react'
 type prop={
     item:newsArrType
@@ -13,6 +14,10 @@ export default function NewsCard({item}:prop) {
         </span>
       </div>
       <h1 className='text-xl font-semibold capitalize'>{item.title}</h1>
+      <span className='w-full flex items-center justify-start gap-2'>
+        <AccessTimeIcon className='!text-gray-600'/>
+        <p className='text-gray-600 capitalize'>{item.date}</p>
+      </span>
       <p className='text-sm text-gray-400'>{item.description}</p>
     </section>
   )

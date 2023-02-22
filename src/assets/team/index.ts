@@ -1,0 +1,7 @@
+export {default as teamimg} from './teamimg.jpg'
+export {default as teamheroimg1} from './teamheroimg1.jpg'
+export {default as teamheroimg2} from './teamheroimg2.jpg'
+export {default as teamheroimg3} from './teamheroimg3.jpg'
+export {default as teamheroimg4} from './teamheroimg4.jpg'
+export {default as teamheroimg5} from './teamheroimg5.jpg'
+export {default as teamheroimg6} from './teamheroimg6.jpg'

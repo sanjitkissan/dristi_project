@@ -1,0 +1,7 @@
+export {default as newsImg1} from "./newsImg1.jpg"
+export {default as newsImg2} from "./newsImg2.jpg"
+export {default as newsImg3} from "./newsImg3.jpg"
+export {default as newsImg4} from "./newsImg4.jpg"
+export {default as newsImg5} from "./newsImg5.jpg"
+export {default as newsImg6} from "./newsImg6.jpg"
+export {default as newsBreadImg} from "./newsBreadImg.jpg"

@@ -1,6 +1,7 @@
 export type navArrType ={
     id:number
     title:string
+    path:string
 }
 
 export type breadcrumbArrType ={
@@ -37,4 +38,21 @@ export type newsArrType ={
         src:string
     }
     tag:string
+    date:string
+}
+
+export type heroArrType ={
+    id:number
+    img:{
+        src:string
+    }
+}
+
+export type teamArrType={
+    id:number
+    title:string
+    position:string
+    img:{
+        src:string
+    }
 }

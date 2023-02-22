@@ -112,13 +112,15 @@ export const newsArr:newsArrType[]=[
     img:billBoard,
     title:"tips for choosing a strategic billboard location",
     description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet recusandae at nam autem quidem, laborum architecto?",
-    tag:"billboard"
+    tag:"billboard",
+    date:"december 20,2021"
  },
  {
     id:2,
     img:planning,
     title:"how to organize files at a design agency before  printing",
     description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet recusandae at nam autem quidem, laborum architecto?",
-    tag:"advertising"
+    tag:"advertising",
+    date:"december 20,2021"
  },
 ]
