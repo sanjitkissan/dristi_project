@@ -14,7 +14,10 @@ export default function ClientReview() {
       <div className='w-full flex flex-col lg:flex-row items-center justify-between gap-6'>
             {
                 clientReviewArr.map((item)=>(
+                  <div key={item.id}>
+
                     <ClientReviewCard item={item}/>
+                  </div>
                 ))
             }
       </div>

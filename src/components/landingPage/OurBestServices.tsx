@@ -17,7 +17,10 @@ export default function OurBestServices() {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
                 serviceArr.map((item)=>(
+                  <div key={item.id}> 
+
                     <SpecialServiceCard item={item}/>
+                  </div>
                 ))
             }
       </div>

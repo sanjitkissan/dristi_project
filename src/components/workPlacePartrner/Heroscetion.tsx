@@ -13,7 +13,7 @@ export default function Heroscetion() {
         </h1>
         <p className="text-gray-100 text-lg ">
           {" "}
-          Millennials or Gen Y constitute 50% of today's working professionals
+          Millennials or Gen Y constitute 50% of todays working professionals
           and this number is projected to reach over 75% by the year 2025. This
           ever-evolving and aspirational workforce thrives on an ecosystem of
           modern workplaces with a strong sense of community and employee

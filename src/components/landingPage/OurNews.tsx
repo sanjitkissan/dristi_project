@@ -16,7 +16,10 @@ export default function OurNews() {
       <div className='w-full lg:w-2/3 flex flex-col lg:flex-row items-center justify-between gap-4'>
         {
             newsArr.map((item)=>(
+              <div key={item.id}>
+
                 <NewsCard item={item} />
+              </div>
             ))
         }
       </div>

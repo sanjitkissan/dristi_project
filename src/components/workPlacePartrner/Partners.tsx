@@ -49,8 +49,7 @@ export default function Partners() {
             {
                 
                 heroArr.map((item)=>(
-                    <div key={item.id
-                    }>
+                    <div key={item.id}>
                     <PartnersCard item={item}/>
                     </div>
                 ))

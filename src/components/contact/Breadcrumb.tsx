@@ -1,6 +1,7 @@
 import { contactBreadcrumbImg } from '@/assets/contact'
 import React from 'react'
-import MainBreadcrumb from '../commonComponent/MainBreadCrumb'
+import AllBreadcrumb from '../dynamicComponent/AllBreadcrumb'
+
 const arr = {
     id:1,
     title:"contact",
@@ -11,7 +12,7 @@ const arr = {
 export default function Breadcrumb() {
   return (
     <section className='w-full '>
-      <MainBreadcrumb arr={arr}/>
+      <AllBreadcrumb arr={arr}/>
     </section>
   )
 }

@@ -6,7 +6,7 @@ type prop={
 }
 export default function NewsCard({item}:prop) {
   return (
-    <section className='w-full flex flex-col items-start justify-start !h-96 gap-4 ' key={item.id}>
+    <section className='w-full flex flex-col items-start justify-start !h-96 gap-4 ' >
       <div className='w-full h-60 relative'>
         <img src={item.img.src} alt="" className='w-full h-full' />
         <span className='absolute left-0 bottom-0 h-10 w-28 center bg-white'>

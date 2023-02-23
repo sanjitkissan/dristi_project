@@ -1,6 +1,7 @@
 import { serviceBreadcrumbImg } from '@/assets/services'
 import React from 'react'
-import MainBreadcrumb from '../commonComponent/MainBreadCrumb'
+import AllBreadcrumb from '../dynamicComponent/AllBreadcrumb'
+
 
 const arr = {
     id:1,
@@ -13,7 +14,7 @@ const arr = {
 export default function Breadcrumb() {
   return (
     <section className=''>
-      <MainBreadcrumb arr={arr} />
+      <AllBreadcrumb arr={arr}/>
     </section>
   )
 }
