@@ -16,7 +16,7 @@ export default function MainBreadcrumb({arr}:any) {
           </span>
         </div>
         <div style={{backgroundImage:`url(${arr?.img.src})`}} className="w-4/5 h-[60vh] bg-center bg-cover bg-no-repeat relative">
-            <span className=" absolute top-1/2 -left-16 h-48 w-96 bg-white -translate-y-1/2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-start justify-center gap-4 px-8">
+            <span className=" absolute top-1/2 -left-16 h-48 w-80 bg-white -translate-y-1/2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-start justify-center gap-4 px-8">
             <h1 className="text-3xl font-bold capitalize ">{arr.title}</h1>
             <Link href={"/"}>
             <h1 className="text-lg text-gray-600 capitalize  ">home <span className="text-red-600">{`>>`}</span>  </h1>

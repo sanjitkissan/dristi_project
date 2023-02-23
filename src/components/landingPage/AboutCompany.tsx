@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function AboutCompany() {
   return (
-    <section className='w-full main-container flex items-center justify-between gap-6 mb-24 mt-[26rem]  '>
+    <section className='w-full main-container flex flex-col lg:flex-row items-center justify-between gap-6 mb-24 mt-[26rem]  '>
         <div className='w-full flex flex-col items-start justify-between gap-4'>
             <p className=' w-full text-start  text-red-500 font-bold '>ABOUT COMPANY </p>
             <h1 className='w-full text-start text-3xl font-bold capitalize'>get beautiful billboard ads for your business</h1>

@@ -44,10 +44,10 @@ export default function MessageSection() {
         },
       });
   return (
-    <section className='w-full main-container flex items-center justify-center my-24 '>
-      <div style={{backgroundImage:`url(${contactFormImg.src})`}} className='w-full h-[80vh]'></div>
-      <div className='w-full relative'>
-            <span className='absolute top-1/2 -left-10 -translate-y-1/2 bg-white w-full p-6 flex flex-col items-start justify-center gap-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+    <section className='w-full main-container flex flex-col lg:flex-row gap-6 lg:gap-0 items-center justify-center my-24 '>
+      <div style={{backgroundImage:`url(${contactFormImg.src})`}} className='w-full h-[80vh] '></div>
+      <div className='w-full lg:relative'>
+            <span className='lg:absolute lg:top-1/2 lg:-left-10 lg:-translate-y-1/2 bg-white w-full p-6 flex flex-col items-start justify-center gap-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                 <p className='text-xl text-red-600 tracking-wider uppercase'>give a review</p>
                 <h1 className='text-3xl font-bold tracking-wide capitalize'>leave a message</h1>
                 <p className='text-lg text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a feugiat purus. Duis turpis nunc aliquam.</p>

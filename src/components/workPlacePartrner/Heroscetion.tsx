@@ -3,11 +3,11 @@ import React from "react";
 
 export default function Heroscetion() {
   return (
-    <section className="main-container h-[70vh] px-0  w-full flex items-center justify-between gap-6 my-24 bg-gradient-to-br from-blue-500 to-red-500 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md overflow-hidden" >
+    <section className="main-container h-auto lg:h-[70vh] px-0  w-full flex flex-col lg:flex-row items-center justify-between gap-6 my-24 bg-gradient-to-br from-blue-500 to-red-500 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md overflow-hidden" >
       <div style={{backgroundImage:`url(${wpimg2.src})`}} className="w-full h-[70vh] bg-cover bg-no-repeat bg-center">
         {/* <img src={wpimg2.src} alt="" className="w-full h-full" /> */}
       </div>
-      <div className="w-full  flex flex-col items-center justify-between gap-2">
+      <div className="w-full p-2 flex flex-col items-center justify-between gap-2">
         <h1 className=" text-red-500 text-3xl font-bold capitalize ">
           workplace
         </h1>

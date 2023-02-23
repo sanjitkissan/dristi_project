@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 export default function Navbar() {
   const router = useRouter()
   return (
-    <section className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] sticky top-0 z-50 bg-white'>
+    <section className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] sticky top-0 z-50 bg-white hidden lg:flex'>
     <section className='main-container w-full flex items-center justify-between h-20 '>
         <picture className='w-[50%] flex items-center justify-start'>
         <Link href={"/"}>
