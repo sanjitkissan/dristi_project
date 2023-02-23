@@ -1,6 +1,6 @@
 import { contactBreadcrumbImg } from '@/assets/contact'
 import React from 'react'
-import MainBreadcrumb from '../commonComponent/Breadcrumb'
+import MainBreadcrumb from '../commonComponent/MainBreadCrumb'
 const arr = {
     id:1,
     title:"contact",
