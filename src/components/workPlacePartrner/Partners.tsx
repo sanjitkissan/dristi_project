@@ -5,7 +5,7 @@ import PartnersCard from '../card/workPlaccePartners/PartnersCard';
 const settings = {
     dots: false,
     infinite: true,
-    
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,

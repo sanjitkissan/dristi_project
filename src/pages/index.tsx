@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+
 
 import MainLayout from '@/layouts/MainLayout'
 import Breadcrumb from '@/components/landingPage/Breadcrumb'
@@ -11,7 +9,7 @@ import AboutCompany from '@/components/landingPage/AboutCompany'
 import Hooters from '@/components/landingPage/Hooters'
 import Appointment from '@/components/landingPage/Appointment'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
